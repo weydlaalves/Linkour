@@ -8,6 +8,7 @@ export const Container = styled.div`
 `;
 
 export const Form = styled.form`
+
   width: 400px;
   background: #181818;
   padding: 20px;
@@ -70,3 +71,4 @@ export const Form = styled.form`
     
   }
 `;
+

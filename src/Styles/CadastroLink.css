@@ -1,0 +1,36 @@
+
+.cadastro-link__group{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.cadastro-link__group label{
+    margin-bottom: 5px;
+    font-size: 10px;
+    margin-right: 420px;
+    color: #19978f;
+}
+
+.cadastro-link__group input{
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    background-color: #101010;
+    height: 25px;
+    color: #ffffff;
+    width: 470px;
+
+}
+button {
+    background-color: #41ab9a;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 350px;
+    height: 45px;
+    
+}
+text{
+    color: #ffffff;
+}

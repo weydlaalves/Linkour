@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './TelaLogin.css';
-import { Form, Container } from "../Styles/styles";
-
-    
+import { Form, Container } from "../Styles/styles";    
 class TelaLogin extends Component {
     state = {
         email: "",
@@ -26,15 +24,11 @@ class TelaLogin extends Component {
               />    
               <button type="submit">Entrar</button>
               <a href="url">Esqueceu a senha?</a>
-              <a href="url">Criar conta</a>
+              <a href="http://localhost:3000/cadastro">Criar conta</a>
               
             </Form>
-            
-            
           </Container>
-          
         )
     }
 }
-
 export default TelaLogin;
