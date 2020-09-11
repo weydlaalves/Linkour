@@ -7,3 +7,72 @@ body{
 p{
     color: rgb(75, 187, 121);
 }
+
+.telalogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.telalogin form{
+  width: 400px;
+  background: #181818;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*img {
+    width: 100px;
+    margin: 10px 0 40px;
+  }*/
+}
+.telalogin p {
+    color: white;
+    margin-bottom: 15px;
+    border: 1px solid #ff3333;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+.telalogin input {  
+    border: 0;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    color: #181818; /*cor do campo de escrita*/
+    font-size: 16px;
+    background-color:#76967e;
+    width: 100%;
+    border-radius: 5px ;
+    
+  }
+.telalogin ::placeholder{
+  color: white;
+}
+.telalogin button {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 16px;
+    background: #19978e;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    width: 110%;
+  }
+.telalogin hr {
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid #cdcdcd;
+    width: 100%;
+  }
+  /*Esqueceu e Criar conta*/
+.telalogin a {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #f08048;
+    text-decoration: none;
+    display: inline-block;
+ 
+}
