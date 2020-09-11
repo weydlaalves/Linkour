@@ -7,18 +7,15 @@ class CadastroLink extends React.Component{
         return(
             <div>
                 <form>
-                <div>
-                  <button type = 'submit'>adicionar</button>
-                  </div>
-
-                  <div className = "cadastro">
+                    <div className = "cadastro">
                       <label htmlFor= "title" type = "text">Rede social</label> 
                       <input id = "title" name= "title" type= "text"/>
-                  </div>
-                  <div className = "cadastro">
-                      <label htmlFor= "url" type = "text">Link</label> 
-                      <input id = "url" name= "url" type= "text"/>
-                  </div>
+                    </div>
+                    <div className = "cadastro">
+                        <label htmlFor= "url" type = "text">Link</label> 
+                        <input id = "url" name= "url" type= "text"/>
+                        <button type = 'submit'>adicionar</button>
+                    </div>
                 </form>
             </div>
         )
