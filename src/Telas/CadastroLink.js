@@ -3,6 +3,11 @@ import '../Styles/CadastroLink.css';
 
 
 class CadastroLink extends React.Component{
+    state = {
+        name: "",
+        Link: "",
+        error: ""
+      };
     render(){
         return(
             <div>
