@@ -31,25 +31,25 @@ header#mains-header {
     
     .buscar input{
         border: 1px solid;
-        margin-top: 40px;
+        margin-top: 8gitpx;
         border-radius: 8px; 
         background-color: whitesmoke;
         height: 30px;
         width: 1000px;
-        padding:0 10 ;
+        padding: 10px;
         justify-content: right;
         align-items: right;
         display: flex;
-        flex-wrap: wrap;
+
      }
     .buscar button{
-    background-color: #41ab9a;
-    border-radius: 8px;
-    margin-left: 84%;
-    width: 100px;
-    height: 45px;
-    display: flex;
-    flex-wrap: wrap;
+        background-color: #41ab9a;
+        margin-top: -50px;
+        border-radius: 8px;
+        margin-left: 75%;
+        width: 100px;
+        height: 45px;
+        display: flex;
 
     }
 
