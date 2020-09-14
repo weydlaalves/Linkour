@@ -4,7 +4,8 @@ import TelaLogin from './Telas/TelaLogin.js';
 import CadastroLink from './Telas/CadastroLink';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Buscar from './Telas/Buscar.js';
-    function App() {
+    
+function App() {
       return (
       <div className= "app">
         <BrowserRouter>
@@ -17,13 +18,8 @@ import Buscar from './Telas/Buscar.js';
           <Route path = '/pesquisa'>
            <CadastroLink></CadastroLink>
           </Route>
-          
-        </BrowserRouter>
-        
+        </BrowserRouter> 
       </div>
       );
     }
-    
-
-
 export default App;

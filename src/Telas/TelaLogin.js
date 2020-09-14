@@ -12,7 +12,7 @@ class TelaLogin extends Component {
             <div className = "telalogin">
               
               <form onSubmit>
-                
+          
                 {this.state.error && <p>{this.state.error}</p>}
                 <input
                   type="email"
