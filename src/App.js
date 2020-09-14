@@ -15,7 +15,7 @@ function App() {
           <Route path = '/buscar'>
            <Buscar></Buscar>
           </Route>
-          <Route path = '/pesquisa'>
+          <Route path = '/addlink'>
            <CadastroLink></CadastroLink>
           </Route>
         </BrowserRouter> 
