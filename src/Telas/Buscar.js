@@ -9,14 +9,7 @@ class Buscar extends React.Component{
       };
     render(){
         return (
-        
-            <div className= "buscares">
-
-             <div><header id="mains-header"> Linkour </header></div>
-            
             <div class="buscar">
-                
-
                 <form>
                 <input
                   type="buscar "
@@ -29,10 +22,6 @@ class Buscar extends React.Component{
                 </div>
 
                 </form>
-                
-                
-    
-            </div>
             
             </div>
         

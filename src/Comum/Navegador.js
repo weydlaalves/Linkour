@@ -5,9 +5,7 @@ import  './Navegador.css';
 class Navegador extends Component {
     render() {
         return (
-            <div>
-                <h1>weydla é linda.com"</h1>
-            </div>
+            <div><header id="mains-header"> Linkour </header></div>
         )
     }
 }
