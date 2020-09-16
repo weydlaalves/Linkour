@@ -13,7 +13,7 @@ function App() {
             <TelaLogin></TelaLogin>
           </Route>
           <Route path = '/buscar'>
-           <Buscar></Buscar>
+            <Buscar></Buscar>
           </Route>
           <Route path = '/addlink'>
            <CadastroLink></CadastroLink>
