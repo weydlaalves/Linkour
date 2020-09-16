@@ -1,0 +1,14 @@
+header#mains-header {
+    width: 100%;
+    height: 60px;
+    background:  #618f77;
+    padding: top;
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-size:25px;
+    font-weight: bold;
+    color: bisque;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
